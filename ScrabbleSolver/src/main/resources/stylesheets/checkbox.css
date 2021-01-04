@@ -1,0 +1,9 @@
+button {
+    -fx-border-radius: 0;
+    -fx-border-color: black;
+    -fx-background-radius: 0
+}
+
+button:pressed {
+    -fx-border-width: 12px;
+}

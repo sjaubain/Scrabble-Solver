@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="mainPane" maxWidth="570.0" minHeight="700.0" minWidth="570.0" prefHeight="700.0" prefWidth="570.0"
+            xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="controllers.Controller">
+    <children>
+        <Label fx:id="errLabel" layoutX="186.0" layoutY="619.0" maxWidth="200.0" minWidth="200.0" prefWidth="200.0"
+               style="-fx-alignment: center" textFill="#e81515" AnchorPane.leftAnchor="100.0"
+               AnchorPane.rightAnchor="100.0"/>
+        <Button fx:id="findWrdBtn" layoutX="259.0" layoutY="645.0" mnemonicParsing="false" text="Find !"/>
+        <TextField fx:id="rack" layoutX="211.0" layoutY="582.0" AnchorPane.leftAnchor="240.0"
+                   AnchorPane.rightAnchor="240.0"/>
+        <Label fx:id="score" layoutX="372.0" layoutY="586.0" text="Label"/>
+        <AnchorPane id="gamePane" maxHeight="570.0" maxWidth="570.0" minHeight="570.0" minWidth="570.0"
+                    prefHeight="570.0" prefWidth="570.0"/>
+        <AnchorPane layoutY="561.0" prefHeight="200.0" prefWidth="200.0"/>
+    </children>
+</AnchorPane>
